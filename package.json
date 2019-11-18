@@ -1,5 +1,5 @@
 {
-  "name": "@sancheztvd/eupago-integration",
+  "name": "eupago-integration",
   "version": "1.0.0",
   "description": "Create payment references using the API of EuPago.",
   "main": "index.js",

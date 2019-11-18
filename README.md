@@ -8,7 +8,7 @@ You can also find the documentation of eupago api here: https://suporte.eupago.p
 
 # Install
 
-`npm install --save @sancheztvd/eupago-integration`
+`npm install --save eupago-integration`
 
 # Usage
 This package use 4 environment variables (1 required, 3 optional)
