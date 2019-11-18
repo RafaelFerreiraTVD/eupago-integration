@@ -90,9 +90,9 @@ const createPaymentReference = (value, id, method, alias) => {
         method,
         valor: val,
         id,
-        per_dup: 0,
+        per_dup: process.env.EUPAGO_ALLOW_DUPLICATED_PAYMENTS || 0,
         alias,
-        descricao: process.env.EUPAGO_DESCRIPTION_MBWAY
+        descricao: process.env.EUPAGO_DESCRIPTION_MBWAY || 'My Sample Store'
     };
     
     return createRequest(data);
