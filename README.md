@@ -20,6 +20,8 @@ You can also find the documentation of eupago api here: https://suporte.eupago.p
 * `EUPAGO_DESCRIPTION_MBWAY="Your purchase at Store"` (default = 'My Sample Store')
 * `EUPAGO_ALLOW_DUPLICATED_PAYMENTS=0` (default = 0)
 
+# Usage
+
 ```js
 const eupago = require('eupago-integration')();
 eupago.createPaymentReference(totalAmount, yourReference, method, mobilePhoneNumber).then((response) => {
