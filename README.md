@@ -1,4 +1,4 @@
-# EuPago Integration
+# EuPago Integration [![npm version](https://badge.fury.io/js/eupago-integration.svg)](https://badge.fury.io/js/eupago-integration) [![npm package](https://img.shields.io/npm/dm/reupago-integration.svg)](https://www.npmjs.org/package/reupago-integration)
 
 *Create payment references using the API of EuPago.*
 
@@ -10,9 +10,12 @@ You can also find the documentation of eupago api here: https://suporte.eupago.p
 
 `npm install --save eupago-integration`
 
-# Usage
-This package use 4 environment variables (1 required, 3 optional)
+# Required configuration
+
 * `EUPAGO_API_KEY=xxxx-xxxx-xxxx-xxxx-xxxx` (required)
+
+# Optional configuration
+
 * `EUPAGO_REST_API_URL=https://clientes.eupago.pt/clientes/rest_api` (default = https://clientes.eupago.pt/clientes/rest_api)
 * `EUPAGO_DESCRIPTION_MBWAY="Your purchase at Store"` (default = 'My Sample Store')
 * `EUPAGO_ALLOW_DUPLICATED_PAYMENTS=0` (default = 0)
