@@ -1,4 +1,4 @@
-# EuPago Integration [![npm version](https://badge.fury.io/js/eupago-integration.svg)](https://badge.fury.io/js/eupago-integration) [![npm package](https://img.shields.io/npm/dm/eupago-integration.svg)](https://www.npmjs.org/package/reupago-integration)
+# EuPago Integration [![npm version](https://badge.fury.io/js/eupago-integration.svg)](https://badge.fury.io/js/eupago-integration) [![npm package](https://img.shields.io/npm/dm/eupago-integration.svg)](https://www.npmjs.org/package/eupago-integration)
 
 *Create payment references using the API of EuPago.*
 
