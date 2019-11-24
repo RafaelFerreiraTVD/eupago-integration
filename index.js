@@ -1,5 +1,4 @@
 const request = require('request');
-const decimal = require('decimal.js');
 const dateFormat = require('dateformat');
 
 const api_info = {
@@ -84,7 +83,8 @@ const createRequest = (payment_data) => {
  * @param {string} alias     Phone number in case of MBWAY method
  */
 const createPaymentReference = (value, id, method, alias) => {
-    let val = new decimal(value).toPrecision(2);
+    let val = parseFloat(value);
+    if (isNaN(val)) throw Error("The amount provided is not a valid number");
     
     const data = {
         method,
