@@ -1,6 +1,6 @@
 {
   "name": "eupago-integration",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Create payment references using the API of EuPago.",
   "main": "index.js",
   "scripts": {
