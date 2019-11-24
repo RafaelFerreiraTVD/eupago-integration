@@ -23,7 +23,6 @@
   "license": "MIT",
   "dependencies": {
     "dateformat": "^3.0.3",
-    "decimal.js": "^10.2.0",
     "request": "^2.88.0"
   }
 }
