@@ -1,6 +1,6 @@
 {
   "name": "eupago-integration",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create payment references using the API of EuPago.",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,11 @@
     "url": "https://github.com/RafaelFerreiraTVD/eupago-integration/issues"
   },
   "homepage": "https://github.com/RafaelFerreiraTVD/eupago-integration#readme",
-  "keywords": ["eupago", "payment", "integration"],
+  "keywords": [
+    "eupago",
+    "payment",
+    "integration"
+  ],
   "author": "Rafael Ferreira",
   "license": "MIT",
   "dependencies": {
